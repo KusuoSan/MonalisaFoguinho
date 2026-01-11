@@ -17,7 +17,7 @@ recordeTexto.textContent = `🏆 Recorde: ${recorde}`;
 
 // ===== CLIQUE NA GATA =====
 gato.addEventListener("click", (e) => {
-miau.currentTime = 1.9;
+miau.currentTime = 0;
 miau.play();
 
 
@@ -66,6 +66,7 @@ function criarCoracao(x, y) {
 
   setTimeout(() => coracao.remove(), 1200);
 }
+
 
 
 
