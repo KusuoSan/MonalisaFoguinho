@@ -26,7 +26,6 @@ h1 {
   transition: transform 0.3s ease;
 }
 
-/* efeito de carinho */
 #gato:hover {
   transform: scale(1.15);
 }
@@ -54,3 +53,4 @@ h1 {
     transform: translateY(-80px) scale(1.5);
   }
 }
+
