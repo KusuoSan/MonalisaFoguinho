@@ -2,16 +2,23 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-   <link rel="icon" href="https://i.imgur.com/htKvpJ9.gif">
+   <link rel="icon" href="https://i.imgur.com/qyDkStE.gif">
   <title>Carinho Diário!</title>
   <link rel="stylesheet" href="style.css">
-   <meta property="og:image" content="https://kusuosandropimgs.carrd.co/assets/images/image10.png?v=fb90c3d4" />
-<meta property="twitter:card" content="summary_large_image">
- 
 </head>
 <body>
 
-  <h1>Faça carinho na Monalisa todo dia! 🐾</h1>
+    <div class="troca-gato">
+  <button id="botaoTroca">🐱 Trocar Gato</button>
+  <div id="opcoesGatos" class="opcoes-gatos">
+    <img src="gataMonalisa.png" alt="gataMonalisa" data-nome="gatamonalisa">
+    <img src="gatoWill.png" alt="GatoWill" data-nome="gatowill">
+    <img src="gataChikita.png" alt="GataChikita" data-nome="gatachikita">
+  </div>
+</div>
+
+  <h1 id="tituloGato">Faça carinho na Monalisa todo dia 🐾</h1>
+
 
   <div class="container">
     <img 
@@ -23,11 +30,9 @@
   <p id="contador">🔥 Foguinho: 0</p>
     <p id="recorde">🏆 Recorde: 0</p>
   
-  <audio id="miau" src="miau.mp3"> preload="auto"></audio>
+
+  <audio id="miau" src="miau.mp3"></audio>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
