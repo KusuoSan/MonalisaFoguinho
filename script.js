@@ -97,7 +97,7 @@ gato.addEventListener("click", (e) => {
   atualizarGato();
 });
 
-/* ===== FUNÇÕES AUXILIARES */
+/*  FUNÇÕES AUXILIARES */
 function ontem() {
   const d = new Date();
   d.setDate(d.getDate() - 1);
